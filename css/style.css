@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+header{
+    background-color:rgb(247, 150, 231);
+    height: 100px;
+}
+
+.properties{
+    width: 1600px;
+    margin: 20px auto;
+}
+.upper{
+    background-color: rgb(241, 241, 150);
+    height: 500px;
+}
+
+.lower{
+    background-color: rgb(65, 65, 219);
+    height:700px;
+}
