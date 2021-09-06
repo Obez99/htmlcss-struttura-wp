@@ -4,9 +4,28 @@
     box-sizing:border-box;
 }
 
+.clearfix::after{
+    content:"";
+    display:table;
+    clear:both;
+}
+
+
 header{
     background-color:rgb(247, 150, 231);
     height: 100px;
+}
+
+div.lower div,aside{
+    background-color: paleturquoise;
+}
+
+div aside{
+    width: calc(20% - 20px);
+}
+
+.float-left{
+    float:left;
 }
 
 .properties{
@@ -20,5 +39,26 @@ header{
 
 .lower{
     background-color: rgb(65, 65, 219);
-    height:700px;
+    border: 1px solid black;
 }
+
+
+
+
+.section-head{
+    height:100px;
+    margin-bottom:20px;
+}
+
+.s_body{
+    width:60%;
+    margin:0 20px;
+}
+
+.section{
+    height:900px;
+    margin-bottom: 20px;
+
+}
+
+
